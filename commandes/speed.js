@@ -20,6 +20,13 @@ zokou({
   }, () => Math.floor(Math.random() * 10000 + 1000));
   const _0x451c3b = _0x5a815c.map(_0x526b71 => "🔴 PONG: " + _0x526b71 + " 🔴").join("\n");
   const _0x41d2b1 = {
+    'externalAdReply': {
+      'title': "ALI-XMD ULTRA SPEED RESPONSE",
+      'body': "Ping RESULTS : " + _0x451c3b,
+      'sourceUrl': "https://whatsapp.com/channel/0029VaoRxGmJpe8lgCqT1T2h",
+      'thumbnailUrl': "https://cdn.ironman.my.id/q/BXTKN.jpg",
+      'mediaType': 0x1,
+      'showAdAttribution': true
     }
   };
   const _0x54ea81 = {
@@ -27,7 +34,7 @@ zokou({
     'vcard': "BEGIN:VCARD\nVERSION:3.0\nFN:LUCKY MD\nORG:LUCKY MD Nexus;\nTEL;type=CELL;type=VOICE;waid=255764182801:+255 752 593 977\nEND:VCARD"
   };
   await _0x41d5d3.sendMessage(_0x4cfdc6, {
-    'text': "☇ ᴀʟɪ ꜱᴩᷨᴇͦᴇͭᴅ 🐍",
+    'text': "*☇ ᴀʟɪ ꜱᴩᷨᴇͦᴇͭᴅ 🐍*",
     'contextInfo': _0x41d2b1,
     'contacts': {
       'displayName': "LUCKY MD Verified Contact",
@@ -54,10 +61,10 @@ zokou({
     'externalAdReply': {
       'title': "LUCKY MD - System Uptime",
       'body': "Bot has been running for: " + _0x2f3abc,
-      'sourceUrl': "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
-      'thumbnailUrl': "https://files.catbox.moe/rdm4ep.jpeg",
+      'sourceUrl': "https://whatsapp.com/channel/0029VaoRxGmJpe8lgCqT1T2h",
+      'thumbnailUrl': "https://cdn.ironman.my.id/q/BXTKN.jpg",
       'mediaType': 0x1,
-      'showAdAttribution': false
+      'showAdAttribution': true 
     }
   };
   const _0x297b69 = {
@@ -65,7 +72,7 @@ zokou({
     'vcard': "BEGIN:VCARD\nVERSION:3.0\nFN:LUCKY MD\nORG:LUCKY MD Nexus;\nTEL;type=CELL;type=VOICE;waid=255764182801:+244 752 593 977\nEND:VCARD"
   };
   await _0x161605.sendMessage(_0x205206, {
-    'text': "*LUCKY MD UPTIME* " + _0x2f3abc,
+    'text': "*ALI-MD UPTIME* " + _0x2f3abc,
     'contextInfo': _0xae590,
     'contacts': {
       'displayName': "LUCKY MD Verified Contact",
@@ -78,3 +85,4 @@ zokou({
 module.exports = {
   'delay': delay
 };
+      

@@ -20,13 +20,6 @@ zokou({
   }, () => Math.floor(Math.random() * 10000 + 1000));
   const _0x451c3b = _0x5a815c.map(_0x526b71 => "🔴 PONG: " + _0x526b71 + " 🔴").join("\n");
   const _0x41d2b1 = {
-    'externalAdReply': {
-      'title': "Lucky_Md My Ultra Speed Response",
-      'body': "Ping Results : " + _0x451c3b,
-      'sourceUrl': "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
-      'thumbnailUrl': "https://files.catbox.moe/rdm4ep.jpeg",
-      'mediaType': 0x1,
-      'showAdAttribution': false 
     }
   };
   const _0x54ea81 = {

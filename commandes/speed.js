@@ -9,7 +9,7 @@ zokou({
   'nomCom': "ping",
   'desc': "To check bot response time",
   'Categorie': "General",
-  'reaction': '🥂',
+  'reaction': '⚡',
   'fromMe': "true"
 }, async (_0x4cfdc6, _0x41d5d3, _0x546e3d) => {
   const {
@@ -26,7 +26,7 @@ zokou({
       'sourceUrl': "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
       'thumbnailUrl': "https://files.catbox.moe/rdm4ep.jpeg",
       'mediaType': 0x1,
-      'showAdAttribution': true
+      'showAdAttribution': false 
     }
   };
   const _0x54ea81 = {
@@ -34,7 +34,7 @@ zokou({
     'vcard': "BEGIN:VCARD\nVERSION:3.0\nFN:LUCKY MD\nORG:LUCKY MD Nexus;\nTEL;type=CELL;type=VOICE;waid=255764182801:+255 752 593 977\nEND:VCARD"
   };
   await _0x41d5d3.sendMessage(_0x4cfdc6, {
-    'text': "🛸 *LUCKY MD* 🛸",
+    'text': "☇ ᴀʟɪ ꜱᴩᷨᴇͦᴇͭᴅ 🐍",
     'contextInfo': _0x41d2b1,
     'contacts': {
       'displayName': "LUCKY MD Verified Contact",
@@ -64,7 +64,7 @@ zokou({
       'sourceUrl': "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
       'thumbnailUrl': "https://files.catbox.moe/rdm4ep.jpeg",
       'mediaType': 0x1,
-      'showAdAttribution': true
+      'showAdAttribution': false
     }
   };
   const _0x297b69 = {

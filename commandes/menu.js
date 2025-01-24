@@ -33,12 +33,12 @@ const date = moment().format('DD/MM/YYYY');
 ┃⊛│◆ 𝚁𝚊𝚖  : 𝟴/𝟭𝟯𝟮 𝗚𝗕
 ┃⊛│◆ 𝙳𝚊𝚝𝚎  : *${date}* 
 ┃⊛│◆ 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${os.platform()}
-┃⊛│◆ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : ғʀᴇᴅɪᴇ ᴛᴇᴄʜ
+┃⊛│◆ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : ᴀʟɪ-xᴇʀ
 ┃⊛│◆ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜 : ${cm.length}
-┃⊛│◆ 𝚃𝚑𝚎𝚖𝚎 : FRED
+┃⊛│◆ 𝚃𝚑𝚎𝚖𝚎 : 𝙰𝙻𝙸
 ┃⊛└▰▱▰▱▰▱▰▱➻
 ╰▱▰▱▰▱▰⊷▱▰▱▰▱❂\n${readmore}`;
-    let menuMsg = `𝙻𝚞𝚌𝚔𝚢 𝙼𝚍 𝙲𝚖𝚍`;
+    let menuMsg = `𝐀𝐋𝐈-𝐗𝐌𝐃 𝐂𝐌𝐃`;
     for (const cat in coms) {
         menuMsg += `
 ╭▱▱▱✺ *${cat}* ✺▰▰▰⊷ 
@@ -53,12 +53,12 @@ const date = moment().format('DD/MM/YYYY');
 ╰▰▰▰═⊷✺•∞•✺⊷═▱▱▱⊷`
     }
     menuMsg += `
-> Made By ғʀᴇᴅɪᴇ ᴛᴇᴄʜ\n
+> ᴍᴀᴅᴇ ʙʏ ᴀʟɪ-xᴍᴅ\n
 `;
    var lien = mybotpic();
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Luckymd*, déveloper Fredie Tech" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Luckymd*, déveloper Fredie Tech" , gifPlayback : false }, { quoted: ms });
     }
     catch (e) {
        console.log("🥵🥵 Menu erreur " + e);
